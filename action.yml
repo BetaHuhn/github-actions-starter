@@ -1,0 +1,17 @@
+name: 'Node Action Template'
+description: 'GitHub Actions starter for a Node.js based Action with automated releases'
+author: 'BetaHuhn'
+
+inputs:
+  GITHUB_TOKEN:
+    description: |
+      GitHub Token which will be used to authenticate with the GitHub API.
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'umbrella'
+  color: 'yellow'
