@@ -21,7 +21,7 @@
   "homepage": "https://github.com/marketplace/actions/github-actions-starter",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^2.2.0"
+    "@actions/github": "^4.0.0"
   },
   "devDependencies": {
     "@betahuhn/config": "^1.0.2",
